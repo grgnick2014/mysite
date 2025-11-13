@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neeraj Gurung | Portfolio</title>
+
+  <!-- Link both CSS files (in correct order) -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Neeraj Gurung</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Neeraj Gurung</span></h1>
+      <p>Professional C Programmer | Web Developer | Tech Enthusiast</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate developer with expertise in C programming, web development, and problem-solving.
+      I love building clean, efficient code and learning new technologies.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Project 1</h3>
+        <p>Short description of the project with technologies used.</p>
+        <a href="#" class="btn">View Code</a>
+      </div>
+      <div class="card">
+        <h3>Project 2</h3>
+        <p>Short description of another project with technologies used.</p>
+        <a href="#" class="btn">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out via email or LinkedIn.</p>
+    <a href="mailto:youremail@example.com" class="btn">Email Me</a>
+    <a href="https://linkedin.com/in/yourprofile" class="btn">LinkedIn</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Neeraj Gurung. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
